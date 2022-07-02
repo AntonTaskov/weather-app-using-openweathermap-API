@@ -15,7 +15,7 @@ window.addEventListener('load', ()=>{
             ///Just in case if i need it main.humidity
             ///const proxy ="https://cors-anywhere.herokuapp.com/";
 
-            const key = 'cc734d0cb00cbc01e92c7463ec40c5da'
+            const key = 'Key'
             const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${key}`
 
             console.log(api)
